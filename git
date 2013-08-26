@@ -1,0 +1,4 @@
+# create a new empty branch
+git symbolic-ref HEAD refs/heads/mybranch
+rm .git/index
+git clean -fdx
