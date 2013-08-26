@@ -1,0 +1,5 @@
+# install packages for a repo
+composer install --dev
+
+# selfupdate
+sudo composer selfupdate
