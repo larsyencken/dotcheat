@@ -26,3 +26,6 @@ by(iris, "Species", df -> mean(df["Petal.Length"]))
 for subdf in groupby(iris, "Species")
     # ... do something
 end
+
+# reshape pivot-table style: amount ~ (country x category)
+stack(df, "amount", ["country", "category"])
