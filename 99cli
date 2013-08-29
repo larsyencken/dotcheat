@@ -1,0 +1,13 @@
+# list available roles
+99cli hosts --list-roles
+
+# ssh into
+99cli ssh dbproxy           # a single server
+99cli ssh varnish           # a whole cluster
+99cli ssh j-7NJ3KWISPL5EK   # an elastic-mapreduce master node
+
+# identify a server
+99cli id myserver1                                  # by "Name" tag
+99cli id i-bac1832e                                 # by instance id
+99cli id ec2-24-32-67-123.compute-1.amazonaws.com   # by domain name
+99cli id 24.32.67.123                               # by ip
