@@ -1,2 +1,5 @@
 # create a new bare branch
 git checkout --orphan mybranch
+
+# fetch a specific file from another branch
+git checkout mybranch -- myfile.js
