@@ -1,0 +1,5 @@
+# see what versions are supported
+brew versions autojump
+
+# switch to a different version
+brew switch autojump 21.4.2
